@@ -60,4 +60,4 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-exclude: ["development notes.md", "Gemfile", "Gemfile.lock", "gulpfile.js", "node_modules", "package.json", "_posts/", "_site/"]
+exclude: ["development notes.md", "Gemfile", "Gemfile.lock", "gulpfile.js", "node_modules", "package.json", "_posts/"]
