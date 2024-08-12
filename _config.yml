@@ -57,10 +57,11 @@ markdown: kramdown
 #   - vendor/ruby/
 
 exclude:
-- "_assets"
-- "Gemfile"
-- "Gemfile.lock"
-- "gulpfile.js"
-- "node_modules"
-- "package.json"
-- "development notes.md"
+- development notes.md
+- Gemfile
+- Gemfile.lock
+- gulpfile.js
+- node_modules
+- package.json
+- _posts/
+- _site/
