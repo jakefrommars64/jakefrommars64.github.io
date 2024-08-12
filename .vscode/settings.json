@@ -1,0 +1,14 @@
+{
+    "css.styleSheets": [
+        "assets/css/*.css"
+    ],
+    // "html-to-css-autocompletion.includePattern": "assets/css/*.css",
+    "html-to-css-autocompletion.triggerCharacters": false,
+    "html-to-css-autocompletion.autocompletionFilesScope": "multi-root",
+    "html-to-css-autocompletion.getSelectorsFromFileTypes": [
+        "html",
+        "css",
+        "scss",
+        "min.css"
+    ],
+}

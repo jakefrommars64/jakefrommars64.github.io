@@ -18,19 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Jacob Davis
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  I'm a Freelance Software Developer and Design Engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: profile.php?id=100090314833377
+github_username: jakefrommars64
+instagram_username: jakefrommars64
+linkedin_username: jacob-davis64
+x_username: jakefrommars64
 
 # Build settings
 theme: minima
 plugins:
-- jekyll-feed
+- jekyll-feed - "jekyll-github-metadata"
 markdown: kramdown
 
 # Exclude from processing.
@@ -52,3 +55,12 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+- "_assets"
+- "Gemfile"
+- "Gemfile.lock"
+- "gulpfile.js"
+- "node_modules"
+- "package.json"
+- "development notes.md"
