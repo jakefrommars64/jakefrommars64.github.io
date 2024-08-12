@@ -20,10 +20,9 @@
     <source id="live-background-source" src="{{ 'assets/videos/background4.mp4' | prepend: site.baseurl }}"
       type="video/mp4">
   </video>
-  <div class="background-overlay">
-    <div class="site-content">
-      {% include landing-page.html %}
-      <div class="layout">
+  <div class="site-content background-overlay">
+    {% include landing-page.html %}
+    <!-- <div class="layout">
         {%if site.show_aboutme_card %}
         <section class="card neumorphism-card-big">
           {% include section-aboutme.html %}
@@ -49,9 +48,8 @@
           {% include section-contact.html %}
         </section>
         {% endif %}
-      </div>
-      {% include footer.html %}
-    </div>
+      </div> -->
+    {% include footer.html %}
   </div>
 </body>
 

@@ -28,10 +28,6 @@
   --border-2: 1px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 /** Basic styling */
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -53,6 +49,45 @@ body {
   text-shadow: 0.25rem 0.25rem 0.25rem var(--accent-primary);
 }
 
+.highlight-link {
+  box-shadow: inset 0 -0.125rem 0 var(--accent-primary);
+  box-sizing: border-box;
+  color: var(--accent-primary);
+  display: inline-block;
+  padding: 0.125rem 0.125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.highlight-link:hover {
+  box-shadow: inset 0 -2rem 0 0 var(--accent-primary);
+  color: #fff;
+}
+
+.footer {
+  background: #2b2d2f;
+  color: #fff;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  left: 0;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+}
+
+.footer a {
+  color: var(--accent-primary);
+}
+
+.footer a:hover,
+.footer a:focus {
+  background: #2b2d2f;
+  color: #fff;
+}
+
 /* #region Live Background */
 
 .live-background {
@@ -66,15 +101,20 @@ body {
 .background-overlay {
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  left: 0;
+  top: 0;
+  min-width: 80%;
   min-height: 100%;
-  position: relative;
+  float: none;
+  position: absolute;
   background: var(--background-overlay);
 }
 
 .site-content {
   padding: 30px 0;
   flex: 1;
+  display: block;
+  float: none;
   position: relative;
 }
 
