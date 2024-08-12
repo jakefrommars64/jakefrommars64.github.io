@@ -31,9 +31,10 @@ linkedin_username: jacob-davis64
 x_username: jakefrommars64
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
-- jekyll-feed - "jekyll-github-metadata"
+- jekyll-feed
+- jekyll-github-metadata
 markdown: kramdown
 
 # Exclude from processing.
