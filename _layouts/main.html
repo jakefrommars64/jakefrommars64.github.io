@@ -19,38 +19,44 @@
   <video autoplay muted loop class="live-background">
     <source id="live-background-source" src="{{ 'assets/videos/background4.mp4' | prepend: site.baseurl }}"
       type="video/mp4">
-  </video><audio autoplay muted loop controls>
+  </video>
+  <!-- <audio autoplay muted loop controls>
     <source src="{{ 'assets/music/The-Colonist/Building-a-New-World.mp3' | prepend: site.baseurl }}" type="audio/mp3">
-  </audio>
+  </audio> -->
+  <script>
+    new Audio(
+      "{{ 'assets/music/The-Colonist/Building-a-New-World.ogg' | prepend: site.baseurl }}"
+    ).play();
+  </script>
   <div class="site-content background-overlay">
     {% include landing-page.html %}
     <!-- <div class="layout">
-        {%if site.show_aboutme_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-aboutme.html %}
-        </section>
-        {% endif %}
-        {%if site.show_timeline_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-timeline.html %}
-        </section>
-        {% endif %}
-        {%if site.show_projects_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-projects.html %}
-        </section>
-        {% endif %}
-        {%if site.show_skills_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-skills.html %}
-        </section>
-        {% endif %}
-        {%if site.show_contact_card %}
-        <section class="card neumorphism-card-big">
-          {% include section-contact.html %}
-        </section>
-        {% endif %}
-      </div> -->
+          {%if site.show_aboutme_card %}
+          <section class="card neumorphism-card-big">
+            {% include section-aboutme.html %}
+          </section>
+          {% endif %}
+          {%if site.show_timeline_card %}
+          <section class="card neumorphism-card-big">
+            {% include section-timeline.html %}
+          </section>
+          {% endif %}
+          {%if site.show_projects_card %}
+          <section class="card neumorphism-card-big">
+            {% include section-projects.html %}
+          </section>
+          {% endif %}
+          {%if site.show_skills_card %}
+          <section class="card neumorphism-card-big">
+            {% include section-skills.html %}
+          </section>
+          {% endif %}
+          {%if site.show_contact_card %}
+          <section class="card neumorphism-card-big">
+            {% include section-contact.html %}
+          </section>
+          {% endif %}
+        </div> -->
     {% include footer.html %}
   </div>
 </body>
