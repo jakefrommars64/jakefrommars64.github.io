@@ -12,7 +12,6 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" type="" href="{{ 'assets/css/main.css' | prepend: site.baseurl }}">
-  <!-- <link rel="stylesheet" type="" href="{{ 'assets/css/main.css' | prepend: site.baseurl }}"> -->
 </head>
 
 <body>
@@ -20,49 +19,8 @@
     <source id="live-background-source" src="{{ 'assets/videos/background4.mp4' | prepend: site.baseurl }}"
       type="video/mp4">
   </video>
-  <!-- <audio autoplay muted loop controls>
-    <source src="{{ 'assets/music/The-Colonist/Building-a-New-World.mp3' | prepend: site.baseurl }}" type="audio/mp3">
-  </audio> -->
-  <script>
-    new Audio(
-      "{{ 'assets/music/The-Colonist/Building-a-New-World.ogg' | prepend: site.baseurl }}"
-    ).play();
-  </script>
   <div class="site-content background-overlay">
-    <!-- #region audio player -->
-    <audio controls loop autoplay>
-      <source src="{{ '/assets/music/Fate-Will-Find-You.ogg' | prepend: site.baseurl }}" type="audio/ogg">
-      Your browser dose not Support the audio Tag
-    </audio>
-    <!-- #endregion audio player -->
     {% include landing-page.html %}
-    <!-- <div class="layout">
-          {%if site.show_aboutme_card %}
-          <section class="card neumorphism-card-big">
-            {% include section-aboutme.html %}
-          </section>
-          {% endif %}
-          {%if site.show_timeline_card %}
-          <section class="card neumorphism-card-big">
-            {% include section-timeline.html %}
-          </section>
-          {% endif %}
-          {%if site.show_projects_card %}
-          <section class="card neumorphism-card-big">
-            {% include section-projects.html %}
-          </section>
-          {% endif %}
-          {%if site.show_skills_card %}
-          <section class="card neumorphism-card-big">
-            {% include section-skills.html %}
-          </section>
-          {% endif %}
-          {%if site.show_contact_card %}
-          <section class="card neumorphism-card-big">
-            {% include section-contact.html %}
-          </section>
-          {% endif %}
-        </div> -->
     {% include footer.html %}
   </div>
 </body>

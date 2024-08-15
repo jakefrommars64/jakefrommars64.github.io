@@ -2,7 +2,7 @@
 
 :root {
   --foreground: #fff;
-  --background: #000;
+  --background: #2b2d2f;
 
   --accent-primary: #c05cfa;
 
@@ -64,8 +64,8 @@ body {
 }
 
 .footer {
-  background: #2b2d2f;
-  color: #fff;
+  background: var(--background);
+  color: var(--foreground);
   margin: 0.5rem;
   padding: 1rem;
   text-align: center;
