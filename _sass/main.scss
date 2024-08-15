@@ -309,3 +309,62 @@ a {
         }
     }
 }
+
+@media only screen and (min-width: 48em) {
+    .layout {
+        margin: 0.5rem auto;
+        padding: 2rem 2rem
+    }
+
+    .layout .card .subtitle {
+        font-size: 1.25rem
+    }
+
+    .layout .card .description {
+        font-size: 1.25rem
+    }
+
+    .landing-title h1 {
+        font-size: 3rem
+    }
+
+    .landing-icons .social-link {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem
+    }
+
+    .landing-icons .social-link .social {
+        font-size: 2rem
+    }
+}
+
+@media only screen and (min-width: 62em) {
+    .layout {
+        padding: 3rem 3rem
+    }
+
+    .layout .card {
+        padding: 1rem 3rem
+    }
+}
+
+@media only screen and (min-width: 75em) {
+    .layout {
+        padding: 5rem 5rem
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0
+    }
+
+    50% {
+        bottom: 0.5rem
+    }
+
+    100% {
+        bottom: 0
+    }
+}
