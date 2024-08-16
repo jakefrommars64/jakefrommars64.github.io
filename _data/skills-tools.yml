@@ -1,23 +1,23 @@
-- name: GitLab
+- name: GitHub
   weight: 5
 
 - name: Git
   weight: 5
 
-- name: Bitbucket
+- name: Onshape
   weight: 5
 
-- name: SQL
+- name: VS Code
   weight: 5
 
-- name: Jira
+- name: Autodesk Inventor
   weight: 4
 
-- name: Bash
+- name: Autodesk AutoCAD
   weight: 4
 
-- name: Jenkins
+- name: Autodesk Fusion 360
   weight: 3
 
-- name: Docker
+- name: Bash
   weight: 3
