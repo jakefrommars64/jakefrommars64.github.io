@@ -236,12 +236,15 @@ a {
 // Footer
 
 .footer {
-  background: $bg-color;
-  color: $text-color;
+  background: $background;
+  color: $foreground;
   margin: 0rem;
   padding: 1rem;
+  width: 100%;
   text-align: center;
   position: relative;
+  right: 0;
+  bottom: 0;
   left: 0;
 }
 
