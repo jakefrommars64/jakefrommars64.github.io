@@ -4,6 +4,7 @@
 :root {
     --foreground: #fff;
     --background: #2b2d2f;
+    --background-gradiant: rgba(115, 115, 115, 0.15);
 
     --accent-primary: #c05cfa;
 
@@ -38,8 +39,8 @@
 }
 
 html {
-    background: #2b2d2f;
-    color: #fff;
+    background: var(--background);
+    color: var(--foreground);
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
     font-weight: normal;
@@ -62,31 +63,31 @@ p {
 }
 
 a {
-    color: #ff073a;
+    color: var(--accent-primary);
     text-decoration: none
 }
 
 a:hover {
-    color: #fff
+    color: var(--foreground);
 }
 
 .highlight-title {
-    color: #ff073a;
-    text-shadow: 0.25rem 0.25rem 0.25rem #ff073a
+    color: var(--accent-primary);
+    text-shadow: 0.25rem 0.25rem 0.25rem var(--accent-primary)
 }
 
 .highlight-link {
-    box-shadow: inset 0 -0.125rem 0 #ff073a;
+    box-shadow: inset 0 -0.125rem 0 var(--accent-primary);
     box-sizing: border-box;
-    color: #ff073a;
+    color: var(--accent-primary);
     display: inline-block;
     padding: 0.125rem 0.125rem;
     transition: all 0.2s ease-in-out
 }
 
 .highlight-link:hover {
-    box-shadow: inset 0 -2rem 0 0 #ff073a;
-    color: #fff
+    box-shadow: inset 0 -2rem 0 0 var(--accent-primary);
+    color: var(--foreground)
 }
 
 .layout {
@@ -97,7 +98,7 @@ a:hover {
 }
 
 .layout .card {
-    background: linear-gradient(145deg, rgba(115, 115, 115, 0.15) 15%, #2b2d2f 80%);
+    background: linear-gradient(145deg, var(--background-gradiant) 15%, var(--background) 80%);
     border-radius: 2rem;
     margin: 3rem 0;
     padding: 1rem 2rem
@@ -131,7 +132,7 @@ a:hover {
 
 #preloader {
     align-items: center;
-    background: #2b2d2f;
+    background: var(--background);
     display: flex;
     height: 100%;
     justify-content: center;
@@ -163,21 +164,21 @@ a:hover {
 
 #preloader .load :first-child {
     animation-delay: -1.5s;
-    background: #fff
+    background: var(--foreground)
 }
 
 #preloader .load :nth-child(2) {
     animation-delay: -1s;
-    background: #ff073a
+    background: var(--accent-primary)
 }
 
 #preloader .load :nth-child(3) {
     animation-delay: -0.5s;
-    background: #fff
+    background: var(--foreground)
 }
 
 #preloader .load :last-child {
-    background: #ff073a
+    background: var(--accent-primary)
 }
 
 @keyframes spin {
@@ -201,8 +202,8 @@ a:hover {
 }
 
 .footer {
-    background: #2b2d2f;
-    color: #fff;
+    background: var(--background);
+    color: var(--foreground);
     margin: 0rem;
     padding: 1rem;
     width: 100%;
@@ -214,18 +215,18 @@ a:hover {
 }
 
 .footer a {
-    color: #ff073a
+    color: var(--accent-primary)
 }
 
 .footer a:hover,
 .footer a:focus {
-    background: #2b2d2f;
-    color: #fff
+    background: var(--background);
+    color: var(--foreground)
 }
 
 #landing {
-    background: #2b2d2f;
-    color: #fff;
+    background: var(--background);
+    color: var(--foreground);
     display: flex;
     height: 100%;
     margin: 0.5rem;
@@ -248,7 +249,7 @@ a:hover {
 }
 
 .landing-icons .social-link {
-    color: #fff;
+    color: var(--foreground);
     position: relative;
     height: 3rem;
     line-height: 3rem;
@@ -272,7 +273,7 @@ a:hover {
 }
 
 .landing-icons .social-link .social-svg {
-    fill: white
+    fill: var(--foreground)
 }
 
 .landing-icons .social-link .label {
@@ -285,7 +286,7 @@ a:hover {
 
 .landing-icons .social-link:hover .circle {
     animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorBlackIcon 1s linear forwards;
-    fill: rgb(61, 63, 65);
+    fill: var(--social-icons-hover);
     fill-opacity: 1
 }
 
@@ -299,36 +300,12 @@ a:hover {
     top: -2rem
 }
 
-.landing-icons .email:hover .circle {
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorEmail 1s linear forwards
-}
-
-.landing-icons .email:hover .social-svg {
-    fill: #d44638
-}
-
-.landing-icons .telegram:hover .circle {
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorTelegram 1s linear forwards
-}
-
-.landing-icons .telegram:hover .social-svg {
-    fill: #2aabee
-}
-
 .landing-icons .linkedin:hover .circle {
     animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorLinkedIn 1s linear forwards
 }
 
 .landing-icons .linkedin:hover .social-svg {
-    fill: #0072b1
-}
-
-.landing-icons .stackoverflow:hover .circle {
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorStackOverflow 1s linear forwards
-}
-
-.landing-icons .stackoverflow:hover .social-svg {
-    fill: #f47f24
+    fill: var(--linked-in)
 }
 
 .landing-icons .twitter:hover .circle {
@@ -336,7 +313,7 @@ a:hover {
 }
 
 .landing-icons .twitter:hover .social-svg {
-    fill: #1da1f2
+    fill: var(--x-twitter)
 }
 
 .landing-icons .instagram:hover .circle {
@@ -344,7 +321,7 @@ a:hover {
 }
 
 .landing-icons .instagram:hover .social-svg {
-    fill: #e1306c
+    fill: var(--instagram)
 }
 
 .landing-icons .facebook:hover .circle {
@@ -352,7 +329,15 @@ a:hover {
 }
 
 .landing-icons .facebook:hover .social-svg {
-    fill: #4267b2
+    fill: var(--facebook)
+}
+
+.landing-icons .github:hover .circle {
+    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGitHub 1s linear forwards
+}
+
+.landing-icons .github:hover .social-svg {
+    fill: var(--github)
 }
 
 @keyframes outWaveIn {
@@ -364,13 +349,13 @@ a:hover {
 
 @keyframes outWaveOut {
     from {
-        stroke: #fff;
+        stroke: var(--foreground);
         stroke-dasharray: 510;
         stroke-width: 0.5rem
     }
 
     to {
-        stroke: #fff;
+        stroke: var(--foreground);
         stroke-dasharray: 83;
         stroke-width: 0.5rem
     }
@@ -382,45 +367,33 @@ a:hover {
     }
 }
 
-@keyframes colorEmail {
-    to {
-        stroke: #b23121
-    }
-}
-
-@keyframes colorTelegram {
-    to {
-        stroke: #229ed9
-    }
-}
-
 @keyframes colorLinkedIn {
     to {
-        stroke: #005b8e
-    }
-}
-
-@keyframes colorStackOverflow {
-    to {
-        stroke: #d96311
+        stroke: var(--linked-in-hover)
     }
 }
 
 @keyframes colorTwitter {
     to {
-        stroke: #1da1f2
+        stroke: var(--x-twitter-hover)
     }
 }
 
 @keyframes colorFacebook {
     to {
-        stroke: #2f477a
+        stroke: var(--facebook-hover)
     }
 }
 
 @keyframes colorInstagram {
     to {
-        stroke: #833ab4
+        stroke: var(--instagram-hover)
+    }
+}
+
+@keyframes colorGitHub {
+    to {
+        stroke: var(--github-hover)
     }
 }
 
@@ -503,7 +476,7 @@ a:hover {
 }
 
 .timeline-wrapper .hexagon {
-    background: #ff073a;
+    background: var(--accent-primary);
     height: 0.5rem;
     left: 0;
     margin-left: auto;
@@ -526,12 +499,12 @@ a:hover {
 }
 
 .timeline-wrapper .hexagon:before {
-    border-bottom: 0.25rem solid #ff073a;
+    border-bottom: 0.25rem solid var(--accent-primary);
     top: -0.25rem
 }
 
 .timeline-wrapper .hexagon:after {
-    border-top: 0.25rem solid #ff073a;
+    border-top: 0.25rem solid var(--accent-primary);
     bottom: -0.25rem
 }
 
@@ -541,7 +514,7 @@ a:hover {
 }
 
 .timeline-wrapper .flag {
-    background: #2b2d2f;
+    background: var(--background);
     border-radius: 0.5rem;
     font-weight: 600;
     padding: 0.25rem 0.5rem
@@ -554,7 +527,7 @@ a:hover {
 
 .timeline-wrapper .flag span:after {
     content: "\226B";
-    color: #ff073a;
+    color: var(--accent-primary);
     position: absolute;
     opacity: 0;
     right: -1rem;
@@ -572,21 +545,21 @@ a:hover {
 }
 
 .timeline-wrapper .time-wrapper {
-    color: #fff;
+    color: var(--foreground);
     display: block;
     line-height: 0.5rem;
     margin-top: 0.3rem
 }
 
 .timeline-wrapper .time {
-    background: #2b2d2f;
+    background: var(--background);
     border-radius: 0.5rem;
     display: inline-block;
     padding: .6rem
 }
 
 .timeline-wrapper .desc {
-    background: #2b2d2f;
+    background: var(--background);
     border-radius: 1rem;
     margin: 1em 0 0 0;
     padding: 0.75em;
@@ -614,7 +587,7 @@ a:hover {
 }
 
 .project-stars-forks {
-    fill: #fff;
+    fill: var(--foreground);
     font-family: "Josefin Sans", sans-serif
 }
 
@@ -648,7 +621,7 @@ a:hover {
 }
 
 .contact-icons .social-link .social-svg {
-    fill: #ff073a
+    fill: var(--accent-primary)
 }
 
 .contact-icons .social-link:hover {
@@ -657,7 +630,7 @@ a:hover {
 }
 
 .contact-icons .social-link:hover .social-svg {
-    fill: #fff
+    fill: var(--foreground)
 }
 
 .contact-icons .black:hover .social-svg {
@@ -756,7 +729,7 @@ a:hover {
     }
 
     #skills input[type="radio"]:checked+.filter-button {
-        color: #ff073a;
+        color: var(--accent-primary);
         font-weight: 600;
         background: linear-gradient(150deg, rgba(20, 20, 20, 0.4) 10%, rgba(115, 115, 115, 0.15) 80%);
         box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4), -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4), inset -1px -2px 2px rgba(210, 210, 210, 0.4)

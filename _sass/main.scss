@@ -12,11 +12,31 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $text-color: #fff !default;
-$bg-color: rgba(43, 45, 47, 1);
 $card-bg-color: linear-gradient(145deg,
     rgba(115, 115, 115, 0.15) 15%,
     rgba(43, 45, 47, 1) 80%);
-$primary-color: #ff073a;
+$foreground: #fff;
+$background: #2b2d2f;
+
+$accent-primary: #c05cfa;
+
+$color-border-1: #424242;
+$color-border-2: #e8e8e8;
+
+$background-overlay: rgba(66, 66, 66, 0.5);
+
+$social-icons: #ffffff;
+$social-icons-hover: #3e4042;
+$facebook: #0866ff;
+$facebook-hover: #0651cc;
+$github: #e6edf3;
+$github-hover: #b5bbc0;
+$instagram: #fe0175;
+$instagram-hover: #cb005d;
+$linked-in: #1aa9ff;
+$linked-in-hover: #1276b2;
+$x-twitter: #e7e9ea;
+$x-twitter-hover: #b4b6b6;
 
 // General
 
@@ -55,7 +75,7 @@ p {
 }
 
 a {
-  color: $primary-color;
+  color: $accent-primary;
   text-decoration: none;
 
   &:hover {
@@ -64,20 +84,20 @@ a {
 }
 
 .highlight-title {
-  color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  color: $accent-primary;
+  text-shadow: 0.25rem 0.25rem 0.25rem $accent-primary;
 }
 
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 $primary-color;
+  box-shadow: inset 0 -0.125rem 0 $accent-primary;
   box-sizing: border-box;
-  color: $primary-color;
+  color: $accent-primary;
   display: inline-block;
   padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    box-shadow: inset 0 -2rem 0 0 $primary-color;
+    box-shadow: inset 0 -2rem 0 0 $accent-primary;
     color: $text-color;
   }
 }
@@ -180,7 +200,7 @@ a {
 
   .load :nth-child(2) {
     animation-delay: -1s;
-    background: $primary-color;
+    background: $accent-primary;
   }
 
   .load :nth-child(3) {
@@ -189,7 +209,7 @@ a {
   }
 
   .load :last-child {
-    background: $primary-color;
+    background: $accent-primary;
   }
 
   @keyframes spin {
@@ -226,7 +246,7 @@ a {
 }
 
 .footer a {
-  color: $primary-color;
+  color: $accent-primary;
 
   &:hover,
   &:focus {
@@ -284,7 +304,7 @@ a {
     }
 
     .social-svg {
-      fill: white;
+      fill: $foreground;
     }
 
     .label {
@@ -313,28 +333,6 @@ a {
     }
   }
 
-  .email:hover {
-    .circle {
-      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
-        colorEmail 1s linear forwards;
-    }
-
-    .social-svg {
-      fill: #d44638;
-    }
-  }
-
-  .telegram:hover {
-    .circle {
-      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
-        colorTelegram 1s linear forwards;
-    }
-
-    .social-svg {
-      fill: #2aabee;
-    }
-  }
-
   .linkedin:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
@@ -342,18 +340,7 @@ a {
     }
 
     .social-svg {
-      fill: #0072b1;
-    }
-  }
-
-  .stackoverflow:hover {
-    .circle {
-      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
-        colorStackOverflow 1s linear forwards;
-    }
-
-    .social-svg {
-      fill: #f47f24;
+      fill: $linked-in;
     }
   }
 
@@ -364,7 +351,7 @@ a {
     }
 
     .social-svg {
-      fill: #1da1f2;
+      fill: $x-twitter;
     }
   }
 
@@ -375,7 +362,7 @@ a {
     }
 
     .social-svg {
-      fill: #e1306c;
+      fill: $instagram;
     }
   }
 
@@ -386,7 +373,18 @@ a {
     }
 
     .social-svg {
-      fill: #4267b2;
+      fill: $facebook;
+    }
+  }
+
+  .github:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorGitHub 1s linear forwards;
+    }
+
+    .social-svg {
+      fill: $github;
     }
   }
 
@@ -417,45 +415,33 @@ a {
     }
   }
 
-  @keyframes colorEmail {
-    to {
-      stroke: #b23121;
-    }
-  }
-
-  @keyframes colorTelegram {
-    to {
-      stroke: #229ed9;
-    }
-  }
-
   @keyframes colorLinkedIn {
     to {
-      stroke: #005b8e;
-    }
-  }
-
-  @keyframes colorStackOverflow {
-    to {
-      stroke: #d96311;
+      stroke: $linked-in-hover;
     }
   }
 
   @keyframes colorTwitter {
     to {
-      stroke: #1da1f2;
+      stroke: $x-twitter-hover;
     }
   }
 
   @keyframes colorFacebook {
     to {
-      stroke: #2f477a;
+      stroke: $facebook-hover;
     }
   }
 
   @keyframes colorInstagram {
     to {
-      stroke: #833ab4;
+      stroke: $instagram-hover;
+    }
+  }
+
+  @keyframes colorGitHub {
+    to {
+      stroke: $github-hover;
     }
   }
 }
@@ -548,7 +534,7 @@ a {
   }
 
   .hexagon {
-    background: $primary-color;
+    background: $accent-primary;
     height: 0.5rem;
     left: 0;
     margin-left: auto;
@@ -571,12 +557,12 @@ a {
   }
 
   .hexagon:before {
-    border-bottom: 0.25rem solid $primary-color;
+    border-bottom: 0.25rem solid $accent-primary;
     top: -0.25rem;
   }
 
   .hexagon:after {
-    border-top: 0.25rem solid $primary-color;
+    border-top: 0.25rem solid $accent-primary;
     bottom: -0.25rem;
   }
 
@@ -598,7 +584,7 @@ a {
 
     span:after {
       content: "\226B";
-      color: $primary-color;
+      color: $accent-primary;
       position: absolute;
       opacity: 0;
       right: -1rem;
@@ -696,7 +682,7 @@ a {
     }
 
     .social-svg {
-      fill: $primary-color;
+      fill: $accent-primary;
     }
 
     &:hover {
@@ -831,7 +817,7 @@ a {
     }
 
     input[type="radio"]:checked+.filter-button {
-      color: $primary-color;
+      color: $accent-primary;
       font-weight: $font-weight-strong;
       @include neumorphism-button-pressed();
     }
