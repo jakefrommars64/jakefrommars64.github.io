@@ -413,7 +413,7 @@ a:hover {
 }
 
 #skills div[skill-type="language"] {
-    color: #e84a5f
+    color: var(--accent-primary);
 }
 
 #skills div[skill-type="framework"] {
