@@ -26,6 +26,12 @@
     --x-twitter: #e7e9ea;
     --x-twitter-hover: #b4b6b6;
 
+    --skills-1: #a518f7;
+    --skills-2: #b643f9;
+    --skills-3: #c466f9;
+    --skills-4: #d189fb;
+    --skills-5: #d797fc;
+
     --border-1: 5px;
     --border-2: 1px;
 }
@@ -413,15 +419,15 @@ a:hover {
 }
 
 #skills div[skill-type="language"] {
-    color: var(--accent-primary);
+    color: var(--skills-1);
 }
 
 #skills div[skill-type="framework"] {
-    color: #ff847c
+    color: var(--skills-2);
 }
 
 #skills div[skill-type="tool"] {
-    color: #fecea8
+    color: var(--skills-3);
 }
 
 #skills div[skill-weight="1"] {
