@@ -4,7 +4,7 @@
 :root {
     --foreground: #fff;
     --background: #2b2d2f;
-    --background-gradiant: rgba(115, 115, 115, 0.15);
+    --background-gradiant: rgba(115, 115, 115, 0.25);
 
     --accent-primary: #c05cfa;
 
