@@ -67,6 +67,10 @@
 			<section class="card neumorphism-card-big">
 				{% include section-aboutme.html %}
 			</section>
+			{% endif %} {%if site.show_github_readme %}
+			<section class="card neumorphism-card-big">
+				{% include github-readme.html %}
+			</section>
 			{% endif %} {%if site.show_timeline_card %}
 			<section class="card neumorphism-card-big">
 				{% include section-timeline.html %}
@@ -82,10 +86,6 @@
 			{% endif %} {%if site.show_contact_card %}
 			<section class="card neumorphism-card-big">
 				{% include section-contact.html %}
-			</section>
-			{% endif %} {%if site.show_github_readme %}
-			<section class="card neumorphism-card-big">
-				{% include github-readme.html %}
 			</section>
 			{% endif %}
 		</div>
