@@ -11,4 +11,5 @@
         "scss",
         "min.css"
     ],
+    "AllAutocomplete.showCurrentDocument": true,
 }
