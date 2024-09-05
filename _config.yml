@@ -39,7 +39,7 @@ projects_title: Projects
 
 show_aboutme_card: false
 show_projects_card: true
-show_skills_card: true
+show_skills_card: false
 show_github_readme: true
 
 # Build settings
