@@ -1,3 +1,4 @@
 - name: Resume Generation Script
-  include: true
-  desc: Write a script that generates tailored resumes using JSON data and Markdown to ease the process of creating resume's tailored for each application.
+  descr: Write a script that generates tailored resumes using JSON data and Markdown to ease the process of creating resume's tailored for each application.
+  project-page: https://example.com/
+
