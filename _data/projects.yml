@@ -134,7 +134,6 @@
 - name: Mid-Thread Screw Honeycomb Snap for Multiboard
   include: false
   cms-id: ""
-  start-date: ""
   end-date: 12 February 2024
   description: A mid-thread screw attachment for the Multiboard system by KeepMaking that allows you to use Honeycomb Snaps.
   portfolio-url: https://www.jakefrommars64.com/portfolio-collections/my-portfolio/mid-thread-screw-honeycomb-snap-for-multiboard

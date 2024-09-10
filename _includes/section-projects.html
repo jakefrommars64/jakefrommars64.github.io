@@ -6,7 +6,7 @@
   <div class="project neumorphism-card" data-aos="zoom-in-down">
     <div class="name-link-wrapper">
       <h3>{{project.name}}</h3>
-      <p class="project-dates">{{project.start-date}} {% if project.start-date %}&rarr;{% endif %} {{project.end-date}}</p>
+      <p class="project-dates">{% if project.start-date %}{{project.start-date}} &rarr;{% endif %} {{project.end-date}}</p>
     </div>
     <p class="project-desc">{{project.description}}</p>
     {% if project.project-page %}
