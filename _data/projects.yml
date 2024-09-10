@@ -7,7 +7,18 @@
   project-page: ""
   project-categories:
   - ""
-  tags: [Analytical Skills, CSS, Data Analysis, Data Management, Data Manipulation, HTML, Markdown, Problem Solving, Python, Understand & Convey Complex Information, Visual Studio Code (VS Code)]
+  tags:
+  - tag: Analytical Skills
+  - tag: CSS
+  - tag: Data Analysis
+  - tag: Data Management
+  - tag: Data Manipulation
+  - tag: HTML
+  - tag: Markdown
+  - tag: Problem Solving
+  - tag: Python
+  - tag: Understand & Convey Complex Information
+  - tag: Visual Studio Code (VS Code)
   media:
   - ""
 - name: Generation Script for Gridfinity Printable Labels
