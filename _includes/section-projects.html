@@ -9,12 +9,12 @@
       <p class="project-dates">{% if project.start-date %}{{project.start-date}} &rarr;{% endif %} {{project.end-date}}</p>
     </div>
     <p class="project-desc">{{project.description}}</p>
-    {% if project.project-page %}
+    {% if project.portfolio-url %}
     <a class="highlight-link" href="{{project.portfolio-url}}" target="_blank" rel="noreferrer">
       Project Page
     </a>
     {% endif %}
-    {% if project.tags %}
+    {% if project.skills %}
     <div class="tag-wrapper">
       {% for tag in project.skills %}
       <span class="tag neumorphism-card">{{tag.tag}}</span>
