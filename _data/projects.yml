@@ -106,7 +106,6 @@
 - name: Push-Fit Honeycomb Snap
   include: false
   cms-id: ""
-  start-date: ""
   end-date: 12 February 2024
   description: A push fit attachment for the Multiboard system that lets you use Honeycomb snaps.
   portfolio-url: https://www.jakefrommars64.com/portfolio-collections/my-portfolio/push-fit-honeycomb-snap
