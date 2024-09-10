@@ -284,7 +284,8 @@
   description: Redesigned draw latch as an over-center-latch for a better seal. Box can now accommodate up to a 200mm diameter and 80mm thick spool. Redesigned desiccant cages and the addition of four smaller desiccant cages in the lid. An air circulation system and tubing that can be connected to a dehumidifier or dryer. Structural improvements. Aesthetic improvements.
   project-page: ""
   project-categories:
-  - ""
+  - category: 3D-Printing
+  - category: 3D-Modeling
   skills:
   - skill: 2D Drawing + Drafting
   - skill: 3D Modeling
