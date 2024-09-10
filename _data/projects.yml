@@ -7,18 +7,18 @@
   project-page: ""
   project-categories:
   - ""
-  tags:
-  - tag: Analytical Skills
-  - tag: CSS
-  - tag: Data Analysis
-  - tag: Data Management
-  - tag: Data Manipulation
-  - tag: HTML
-  - tag: Markdown
-  - tag: Problem Solving
-  - tag: Python
-  - tag: Understand & Convey Complex Information
-  - tag: Visual Studio Code (VS Code)
+  skills:
+  - skill: Analytical Skills
+  - skill: CSS
+  - skill: Data Analysis
+  - skill: Data Management
+  - skill: Data Manipulation
+  - skill: HTML
+  - skill: Markdown
+  - skill: Problem Solving
+  - skill: Python
+  - skill: Understand & Convey Complex Information
+  - skill: Visual Studio Code (VS Code)
   media:
   - ""
 - name: Generation Script for Gridfinity Printable Labels
@@ -35,29 +35,29 @@
   - Add-In
   - Software Development
   skills:
-  - 3D Modeling
-  - Analytical Skills
-  - Autodesk
-  - C++
-  - Communication
-  - Computer-Aided Design (CAD)
-  - Cross-functional Collaboration
-  - Cross-functional Communication
-  - Cross-functional Coordination
-  - Cross-functional Problem Solving
-  - Cross-functional Team Building
-  - Cross-functional Team Leadership
-  - Fusion 360
-  - Interpersonal Communication
-  - Interpersonal Skills
-  - Notion
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Python
-  - Teamwork
-  - Understand & Convey Complex Information
-  - Visual Studio Code (VS Code)
+  - skill: 3D Modeling
+  - skill: Analytical Skills
+  - skill: Autodesk
+  - skill: C++
+  - skill: Communication
+  - skill: Computer-Aided Design (CAD)
+  - skill: Cross-functional Collaboration
+  - skill: Cross-functional Communication
+  - skill: Cross-functional Coordination
+  - skill: Cross-functional Problem Solving
+  - skill: Cross-functional Team Building
+  - skill: Cross-functional Team Leadership
+  - skill: Fusion 360
+  - skill: Interpersonal Communication
+  - skill: Interpersonal Skills
+  - skill: Notion
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Python
+  - skill: Teamwork
+  - skill: Understand & Convey Complex Information
+  - skill: Visual Studio Code (VS Code)
   media:
   - ""
 - name: Printable Label Expansion Packs for Gridfinity Bins by Pred
@@ -70,37 +70,37 @@
   project-categories:
   - 3D-Printing
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Rendering
-  - 3D Visualization
-  - Analytical Skills
-  - Autodesk
-  - C++
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Communication
-  - Computer-Aided Design (CAD)
-  - Cross-functional Collaboration
-  - Cross-functional Communication
-  - Cross-functional Coordination
-  - Cross-functional Problem Solving
-  - Cross-functional Team Building
-  - Cross-functional Team Leadership
-  - Fusion 360
-  - Interpersonal Communication
-  - Interpersonal Skills
-  - Inventor
-  - Notion
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Python
-  - Teamwork
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Rendering
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: Autodesk
+  - skill: C++
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Communication
+  - skill: Computer-Aided Design (CAD)
+  - skill: Cross-functional Collaboration
+  - skill: Cross-functional Communication
+  - skill: Cross-functional Coordination
+  - skill: Cross-functional Problem Solving
+  - skill: Cross-functional Team Building
+  - skill: Cross-functional Team Leadership
+  - skill: Fusion 360
+  - skill: Interpersonal Communication
+  - skill: Interpersonal Skills
+  - skill: Inventor
+  - skill: Notion
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Python
+  - skill: Teamwork
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Push-Fit Honeycomb Snap
@@ -112,23 +112,23 @@
   project-categories:
   - 3D-Printing
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Fusion 360
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Fusion 360
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Mid-Thread Screw Honeycomb Snap for Multiboard
@@ -140,23 +140,23 @@
   project-categories:
   - 3D-Printing
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Fusion 360
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Fusion 360
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Filament Dy-box Mk.3
@@ -169,33 +169,33 @@
   project-categories:
   - ""
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Rendering
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - Autodesk
-  - C++
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Digital Electronics
-  - Fusion 360
-  - Inventor
-  - Microsoft Excel
-  - Microsoft Office
-  - Microsoft PowerPoint
-  - Microsoft Word
-  - Notion
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Rendering
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: Autodesk
+  - skill: C++
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Digital Electronics
+  - skill: Fusion 360
+  - skill: Inventor
+  - skill: Microsoft Excel
+  - skill: Microsoft Office
+  - skill: Microsoft PowerPoint
+  - skill: Microsoft Word
+  - skill: Notion
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Hinged Draw Latch
@@ -208,33 +208,33 @@
   project-categories:
   - ""
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Rendering
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - Autodesk
-  - C++
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Digital Electronics
-  - Fusion 360
-  - Inventor
-  - Microsoft Excel
-  - Microsoft Office
-  - Microsoft PowerPoint
-  - Microsoft Word
-  - Notion
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Rendering
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: Autodesk
+  - skill: C++
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Digital Electronics
+  - skill: Fusion 360
+  - skill: Inventor
+  - skill: Microsoft Excel
+  - skill: Microsoft Office
+  - skill: Microsoft PowerPoint
+  - skill: Microsoft Word
+  - skill: Notion
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Draw Latch
@@ -247,33 +247,33 @@
   project-categories:
   - ""
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Rendering
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - Autodesk
-  - C++
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Digital Electronics
-  - Fusion 360
-  - Inventor
-  - Microsoft Excel
-  - Microsoft Office
-  - Microsoft PowerPoint
-  - Microsoft Word
-  - Notion
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Rendering
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: Autodesk
+  - skill: C++
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Digital Electronics
+  - skill: Fusion 360
+  - skill: Inventor
+  - skill: Microsoft Excel
+  - skill: Microsoft Office
+  - skill: Microsoft PowerPoint
+  - skill: Microsoft Word
+  - skill: Notion
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Filament Dy-box Mk.2
@@ -286,33 +286,33 @@
   project-categories:
   - ""
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Rendering
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - Autodesk
-  - C++
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Digital Electronics
-  - Fusion 360
-  - Inventor
-  - Microsoft Excel
-  - Microsoft Office
-  - Microsoft PowerPoint
-  - Microsoft Word
-  - Notion
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Rendering
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: Autodesk
+  - skill: C++
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Digital Electronics
+  - skill: Fusion 360
+  - skill: Inventor
+  - skill: Microsoft Excel
+  - skill: Microsoft Office
+  - skill: Microsoft PowerPoint
+  - skill: Microsoft Word
+  - skill: Notion
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""
 - name: Filament Dry-Box Mk.1
@@ -325,32 +325,32 @@
   project-categories:
   - ""
   skills:
-  - 2D Drawing + Drafting
-  - 3D Modeling
-  - 3D Printing
-  - 3D Rendering
-  - 3D Visualization
-  - Analytical Skills
-  - AutoCAD
-  - Autodesk
-  - C++
-  - CAD Standards
-  - CNC Operation
-  - CNC Programming
-  - Computer-Aided Design (CAD)
-  - Digital Electronics
-  - Fusion 360
-  - Inventor
-  - Microsoft Excel
-  - Microsoft Office
-  - Microsoft PowerPoint
-  - Microsoft Word
-  - Notion
-  - Onshape
-  - Problem Solving
-  - Project Management
-  - Project Planning
-  - Purchase Orders
-  - Understand & Convey Complex Information
+  - skill: 2D Drawing + Drafting
+  - skill: 3D Modeling
+  - skill: 3D Printing
+  - skill: 3D Rendering
+  - skill: 3D Visualization
+  - skill: Analytical Skills
+  - skill: AutoCAD
+  - skill: Autodesk
+  - skill: C++
+  - skill: CAD Standards
+  - skill: CNC Operation
+  - skill: CNC Programming
+  - skill: Computer-Aided Design (CAD)
+  - skill: Digital Electronics
+  - skill: Fusion 360
+  - skill: Inventor
+  - skill: Microsoft Excel
+  - skill: Microsoft Office
+  - skill: Microsoft PowerPoint
+  - skill: Microsoft Word
+  - skill: Notion
+  - skill: Onshape
+  - skill: Problem Solving
+  - skill: Project Management
+  - skill: Project Planning
+  - skill: Purchase Orders
+  - skill: Understand & Convey Complex Information
   media:
   - ""

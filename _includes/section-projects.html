@@ -21,6 +21,13 @@
       {% endfor %}
     </div>
     {% endif %}
+    {% if project.skills %}
+    <div class="tag-wrapper">
+      {% for skill in project.skills %}
+      <span class="tag neumorphism-card">{{skill.skill}}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
