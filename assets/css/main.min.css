@@ -595,6 +595,11 @@ a:hover {
     line-height: 1rem
 }
 
+.project-dates {
+    font-size: 1.6rem;
+    color: var(--accent-primary)
+}
+
 .project-stars-forks {
     fill: var(--foreground);
     font-family: "Josefin Sans", sans-serif
