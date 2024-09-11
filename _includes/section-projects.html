@@ -3,6 +3,7 @@
 <h1 class="title"><span>{{site.projects_title}}</span></h1>
 <div class="projects-wrapper">
   {% for project in site.data.projects %}
+  {% if project.include %}
   <div class="project neumorphism-card" data-aos="zoom-in-down">
     <div class="name-link-wrapper">
       <h3>{{project.name}}</h3>
@@ -30,6 +31,7 @@
     </div>
     {% endif %}
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 {% endif %}
