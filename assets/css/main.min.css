@@ -579,7 +579,8 @@ a:hover {
     border-radius: 1rem;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
-    background-size: fill;
+    background-size: cover;
+    background-position: -50% -50%;
 }
 
 .project .name-link-wrapper {
