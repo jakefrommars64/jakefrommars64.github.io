@@ -4,8 +4,7 @@
 <div class="projects-wrapper">
   {% for project in site.data.projects %}
   {% if project.include %}
-  <div class="project neumorphism-card" data-aos="zoom-in-down">
-    <img src="{{site.baseurl}}/assets/images/js-logo.jpg" alt="">
+  <div class="project neumorphism-card" data-aos="zoom-in-down" style="background-image: url('{{site.baseurl}}/assets/images/js-logo.jpg');">
     <div class="name-link-wrapper">
       <h3>{{project.name}}</h3>
       <p class="project-dates">{% if project.start-date %}{{project.start-date}} &rarr;{% endif %} {{project.end-date}}</p>
@@ -31,7 +30,6 @@
       {% endfor %}
     </div>
     {% endif %}
-  </img>
   </div>
   {% endif %}
   {% endfor %}
