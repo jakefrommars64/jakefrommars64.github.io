@@ -4,8 +4,8 @@
 <div class="projects-wrapper">
   {% for project in site.data.projects %}
   {% if project.include %}
-  <div class="project neumorphism-card" data-aos="zoom-in-down" style="background-image: url('{{site.baseurl}}/assets/images/js-logo.jpg'); background-position-x: center;">
-    <div>
+  <div class="project neumorphism-card" data-aos="zoom-in-down" style="background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('{{site.baseurl}}/assets/images/js-logo.jpg'); background-position-x: center;">
+    <div class="project-overlay">
     <div class="name-link-wrapper">
       <h3>{{project.name}}</h3>
       <p class="project-dates">{% if project.start-date %}{{project.start-date}} &rarr;{% endif %} {{project.end-date}}</p>
