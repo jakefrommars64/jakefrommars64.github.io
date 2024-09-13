@@ -59,7 +59,7 @@
   - skill: Understand & Convey Complex Information
   - skill: Visual Studio Code (VS Code)
   media:
-  - cover: assets/project-media/gridfinity-label-autogen/cover.png
+    cover: assets/project-media/gridfinity-label-autogen/cover.png
 - name: Printable Label Expansion Packs for Gridfinity Bins by Pred
   include: true
   cms-id: JFM-Proj-005
