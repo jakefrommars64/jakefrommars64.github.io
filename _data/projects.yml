@@ -102,7 +102,7 @@
   - skill: Teamwork
   - skill: Understand & Convey Complex Information
   media:
-  - ""
+    cover: assets/project-media/gridfinity-label-packs/cover.png
 - name: Push-Fit Honeycomb Snap
   include: false
   cms-id: ""
