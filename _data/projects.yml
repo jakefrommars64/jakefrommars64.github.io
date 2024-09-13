@@ -280,7 +280,7 @@
   - skill: Purchase Orders
   - skill: Understand & Convey Complex Information
   media:
-    cover: assets/project-media/fan-controller-bracket/cover.png
+    cover: assets/project-media/draw-latch/cover.png
 
 - name: Filament Dy-box Mk.2
   include: true
