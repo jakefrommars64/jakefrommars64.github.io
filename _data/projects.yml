@@ -1,5 +1,5 @@
 - name: Resume Generation Script
-  include: false
+  include: true
   cms-id: ""
   start-date: 29 July 2024
   end-date: 6 August 2024
@@ -105,7 +105,7 @@
     cover: assets/project-media/gridfinity-label-packs/cover.png
 
 - name: Push-Fit Honeycomb Snap
-  include: false
+  include: true
   cms-id: ""
   end-date: 12 February 2024
   description: A push fit attachment for the Multiboard system that lets you use Honeycomb snaps.
@@ -134,7 +134,7 @@
     cover: assets/project-media/push-fit-honeycomb-snap/cover.png
 
 - name: Mid-Thread Screw Honeycomb Snap for Multiboard
-  include: false
+  include: true
   cms-id: ""
   end-date: 12 February 2024
   description: A mid-thread screw attachment for the Multiboard system by KeepMaking that allows you to use Honeycomb Snaps.
@@ -280,10 +280,10 @@
   - skill: Purchase Orders
   - skill: Understand & Convey Complex Information
   media:
-    cover: assets/project-media/draw-latch/Assembly - Closed.png
+    cover: assets/project-media/fan-controller-bracket/cover.png
 
 - name: Filament Dy-box Mk.2
-  include: false
+  include: true
   cms-id: JFM-Proj-001.2
   start-date: 23 November 2023
   end-date: 27 December 2023
@@ -324,7 +324,7 @@
     cover: assets/project-media/filament-drybox-mk2/cover.png
 
 - name: Filament Dry-Box Mk.1
-  include: false
+  include: true
   cms-id: JFM-Proj-001.1
   start-date: 3 October 2023
   end-date: 9 November 2023
@@ -367,6 +367,7 @@
   include: true
   media:
     cover: assets/project-media/fan-controller-bracket/cover.png
+
 - name: Hyperloop Cord Winder
   include: true
   media:
