@@ -4,7 +4,7 @@
 <div class="projects-wrapper">
   {% for project in site.data.projects %}
   {% if project.include %}
-  <div class="project neumorphism-card" data-aos="zoom-in-down" style="background-image: linear-gradient(145deg, rgba(66, 66, 66, 0.5) 15%, rgba(66, 66, 66) 80%), url('{{site.baseurl}}{% if project.media.cover %}/{{project.media.cover}}{% else %}/assets/images/js-logo.jpg{% endif %}'); background-position-x: center;">
+  <div class="project neumorphism-card" data-aos="zoom-in-down" style="background-image: linear-gradient(145deg, rgba(66, 66, 66, 0.5) 15%, rgba(66, 66, 66) 80%), url('{{site.baseurl}}/{% if project.media.cover %}{{project.media.cover}}{% endif %}'); background-position-x: center;">
     <div class="name-link-wrapper">
       <h3>{{project.name}}</h3>
       <p class="project-dates">{% if project.start-date %}{{project.start-date}} &rarr;{% endif %} {{project.end-date}}</p>
