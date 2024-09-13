@@ -581,10 +581,6 @@ a:hover {
     padding: 0.5rem 1rem;
 }
 
-.project-overlay {
-    background: var(--accent-primary)
-}
-
 .project .name-link-wrapper {
     display: flex;
     justify-content: space-between
