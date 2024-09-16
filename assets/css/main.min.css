@@ -463,6 +463,10 @@ a:hover {
     display: none
 }
 
+input[type="radio"] {
+    display: none
+}
+
 .timeline-wrapper .timeline {
     list-style-type: none;
     padding: 0;
