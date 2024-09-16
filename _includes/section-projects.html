@@ -18,11 +18,13 @@
     </a>
     {% endif %}
     <div class="tab">
-      <button class="tablinks" onclick="showTab(event, '{{project.name}}', '{{project.name}}-skills')">Skills</button>
-      <button class="tablinks" onclick="showTab(event, '{{project.name}}', '{{project.name}}-tags')">Tags</button>
+      <button class="{{project.name}} tablinks"
+        onclick="showTab(event, '{{project.name}}', '{{project.name}}-skills')">Skills</button>
+      <button class="{{project.name}} tablinks"
+        onclick="showTab(event, '{{project.name}}', '{{project.name}}-tags')">Tags</button>
     </div>
     {% if project.tags %}
-    <div id="{{project.name}}-tags" class="tabcontent">
+    <div id="{{project.name}}-tags" class="{{project.name}} tabcontent">
       <div class="tag-wrapper">
         {% for tag in project.tags %}
         <span class="tag neumorphism-card">{{tag.tag}}</span>
@@ -31,7 +33,7 @@
     </div>
     {% endif %}
     {% if project.skills %}
-    <div id="{{project.name}}-skills" class="tabcontent">
+    <div id="{{project.name}}-skills" class="{{project.name}} tabcontent">
       <h4 class="project-skills">Skills</h4>
       <div class="tag-wrapper">
         {% for skill in project.skills %}
