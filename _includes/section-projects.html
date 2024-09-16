@@ -4,7 +4,7 @@
 <div class="projects-wrapper">
   {% for project in site.data.projects %}
   {% if project.include %}
-  <div class="project neumorphism-card" data-aos="zoom-in-down"
+  <div id="{{project.name}}" class="project neumorphism-card" data-aos="zoom-in-down"
     style="background-image: linear-gradient(145deg, rgba(66, 66, 66, 0.5) 15%, rgba(66, 66, 66) 80%),url('{{site.baseurl}}/{% if project.media.cover %}{{project.media.cover}}{% else %}assets/images/js-logo.jpg{% endif %}'); background-position-x:center;background-repeat:no-repeat; background-size:contain;">
     <div class="name-link-wrapper">
       <h3>{{project.name}}</h3>
@@ -18,8 +18,8 @@
     </a>
     {% endif %}
     <div class="tab">
-      <button class="tablinks" onclick="showTab(event, '{{project.name}}-skills')">Skills</button>
-      <button class="tablinks" onclick="showTab(event, '{{project.name}}-tags')">Tags</button>
+      <button class="tablinks" onclick="showTab(event, '{{project.name}}', '{{project.name}}-skills')">Skills</button>
+      <button class="tablinks" onclick="showTab(event, '{{project.name}}', '{{project.name}}-tags')">Tags</button>
     </div>
     {% if project.tags %}
     <div id="{{project.name}}-tags" class="tabcontent">
