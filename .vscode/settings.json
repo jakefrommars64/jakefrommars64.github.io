@@ -12,4 +12,8 @@
         "min.css"
     ],
     "AllAutocomplete.showCurrentDocument": true,
+    "cSpell.words": [
+        "tabcontent",
+        "tablinks"
+    ],
 }
