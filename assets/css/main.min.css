@@ -462,9 +462,14 @@ a:hover {
 #skills .filter-button {
     display: none
 }
-{% for project in site.data.projects %}
 
-{% endfor %}
+#projects-wrapper input[type="radio"] {
+    display: none
+}
+
+#projects-wrapper .filter-button {
+    display: none
+}
 
 .timeline-wrapper .timeline {
     list-style-type: none;
