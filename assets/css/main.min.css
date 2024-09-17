@@ -609,6 +609,7 @@ a:hover {
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
+    border-radius: 10pt;
     background-color: var(--background);
 }
 
