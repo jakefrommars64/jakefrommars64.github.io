@@ -615,6 +615,7 @@ a:hover {
 /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
+    color: var(--foreground);
     float: left;
     border: none;
     outline: none;
