@@ -22,6 +22,6 @@ skill a00
 
 {%- assign a00 = site.data.skills['a00'] -%}
 
-a00 = {{a00}}
+just the variable is {{a00}}
 
-page.a00 = {{page.a00}}
+as a page variable is {{page.a00}}
