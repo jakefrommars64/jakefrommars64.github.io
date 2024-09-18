@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<title>{{ site.title }}</title>
-	<meta name="description" content="{{ site.description }}" />
-
-	<link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
-	<link rel="icon" type="image/png" sizes="32x32"
-		href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
-	<link rel="icon" type="image/png" sizes="16x16"
-		href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
-	<link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | prepend: site.baseurl }}" />
-	<meta name="theme-color" content="#ffffff" />
-
-	<link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}" />
-
-	<script src="{{ '/assets/js/vendors.min.js' | prepend: site.baseurl }}"></script>
-	<script src="{{ '/assets/js/app.min.js' | prepend: site.baseurl }}"></script>
-</head>
-
-<body>
-
-	<video autoplay muted loop class="live-background">
-		<source id="live-background-source" src="{{ 'assets/videos/background4.mp4' | prepend: site.baseurl }}"
-			type="video/mp4" />
-	</video>
-	<div id="preloader">
-		<div class="load">
-			<hr />
-			<hr />
-			<hr />
-			<hr />
-		</div>
-	</div>
-	<div class="layout">
-		<h1>{{page.name}}</h1>
-		<p>{{page.start-date}}</p>
-		<p>{{page.end-date}}</p>
-		<p>{{page.description}}</p>
-	</div>
-	{% include footer.html %}
-</body>
-
-</html>
+<div>
+	<h1>{{page.name}}</h1>
+	<p>{{page.start-date}}</p>
+	<p>{{page.end-date}}</p>
+	<p>{{page.description}}</p>
+</div>
