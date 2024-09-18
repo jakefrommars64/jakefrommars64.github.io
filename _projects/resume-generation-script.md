@@ -10,6 +10,6 @@ project-page: ""
 project-categories:
     - ""
 skills:
-    - {{site.data.skills.a00}}
 
 ---
+{%- assign page.skills = [site.data.skills.a00] -%}
