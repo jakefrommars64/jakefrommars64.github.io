@@ -54,9 +54,11 @@
 			{% for media in page.media %}
 			<div class="responsive">
 				<div class="gallery">
-					<a target="_blank" href="{{site.baseurl}}/{{media}}">
-						<img src="{{media | prepend: site.baseurl}}" alt="Cinque Terre">
+					{% if media.image %}
+					<a target="_blank" href="{{site.baseurl}}/{{media.image}}">
+						<img src="{{ media.image | prepend: site.baseurl }}" alt="Cinque Terre">
 					</a>
+					{% endif %}
 					<div class="desc">Add a description of the image here</div>
 				</div>
 			</div>
