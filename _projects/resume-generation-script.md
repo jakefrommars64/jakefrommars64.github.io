@@ -16,3 +16,4 @@ project-categories:
 {{page.project-categories}}
 {{page.project-categories[0].cat}}
 {%- assign page.project-categories[2] = {"cat"="cat3"} -%}
+{{page.project-categories}}
