@@ -1,23 +1,26 @@
 ---
 layout: project
-name: Gridfinity Label Autogenerator
+name: Printable Label Expansion Packs for Gridfinity Bins by Pred
 include: true
-cms-id: JFM-Proj-006
+cms-id: JFM-Proj-005
 start-date: 11 January 2024
-end-date: 25 January 2024
-description: A Fusion 360 Script that uses the Fusion 360 API to automatically generate thousands of variations of labels for the Gridfinity Bin by Pred.
-project-page: https://www.jakefrommars64.com/portfolio-collections/my-portfolio/jfm-proj-006
+end-date: Work-In-Progress
+description: These labels are just a small expansion to other labels by Pred and Eistee (if 48,000 labels is considered a small expansion!). They are compatible with the Gridfinity bins by Pred. I plan on adding more varieties and sizes, as well as even more in the future and will update this model page as I do so.
+project-page: https://www.jakefrommars64.com/portfolio-collections/my-portfolio/jfm-proj-005
 project-categories:
     - 3D-Printing
-    - Computer-Programming
-    - Python
-    - Add-In
-    - Software Development
 skills:
+    - skill: 2D Drawing + Drafting
     - skill: 3D Modeling
+    - skill: 3D Printing
+    - skill: 3D Rendering
+    - skill: 3D Visualization
     - skill: Analytical Skills
     - skill: Autodesk
     - skill: C++
+    - skill: CAD Standards
+    - skill: CNC Operation
+    - skill: CNC Programming
     - skill: Communication
     - skill: Computer-Aided Design (CAD)
     - skill: Cross-functional Collaboration
@@ -29,14 +32,16 @@ skills:
     - skill: Fusion 360
     - skill: Interpersonal Communication
     - skill: Interpersonal Skills
+    - skill: Inventor
     - skill: Notion
+    - skill: Onshape
     - skill: Problem Solving
     - skill: Project Management
     - skill: Project Planning
     - skill: Python
     - skill: Teamwork
     - skill: Understand & Convey Complex Information
-    - skill: Visual Studio Code (VS Code)
 media:
-    cover: assets/project-media/gridfinity-label-autogen/cover.png
+    cover: assets/project-media/gridfinity-label-packs/cover.png
+
 ---

@@ -2,21 +2,61 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<title>{{ site.title }}</title>
-	<meta name="description" content="{{ site.description }}">
+	<meta name="description" content="{{ site.description }}" />
 
-	<link rel="stylesheet" type="" href="{{ 'assets/css/main.css' | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
+	<link rel="icon" type="image/png" sizes="32x32"
+		href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
+	<link rel="icon" type="image/png" sizes="16x16"
+		href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
+	<link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | prepend: site.baseurl }}" />
+	<meta name="theme-color" content="#ffffff" />
+
+	<link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}" />
+	<link rel="stylesheet" href="../assets/css/main.min.css" />
+
+	<script src="{{ '/assets/js/vendors.min.js' | prepend: site.baseurl }}"></script>
+	<script src="{{ '/assets/js/app.min.js' | prepend: site.baseurl }}"></script>
+	<script src="../assets/js/app.min.js"></script>
+	<script src="../assets/js/vendors.min.js"></script>
 </head>
 
 <body>
-	<div>
-		<h1>name</h1>
-		<p>{{page.start-date}}</p>
-		<p>{{page.end-date}}</p>
-		<p>{{page.description}}</p>
+
+	<video autoplay muted loop class="live-background">
+		<source src="../assets/videos/background3.mp4" type="video/mp4" />
+	</video>
+	<!-- <div id="preloader">
+		<div class="load">
+			<hr />
+			<hr />
+			<hr />
+			<hr />
+		</div>
+	</div> -->
+	<div class="layout">
+		<section class="card neumorphism-card-big"
+			style="background-image: linear-gradient(145deg, rgba(66, 66, 66, 0.5) 15%, rgba(66, 66, 66) 80%),url('{{site.baseurl}}/{% if project.media.cover %}{{project.media.cover}}{% else %}assets/images/js-logo.jpg{% endif %}'); background-position-x:center;background-repeat:no-repeat; background-size:contain;">
+			<!-- TODO: name -->
+			<div class="name-link-wrapper">
+				<h3>{{project.name}}</h3>
+				<p class="project-dates">{% if project.start-date %}{{project.start-date}} &rarr;{% endif %}
+					{{project.end-date}}
+				</p>
+			</div>
+			<!-- TODO: cms id -->
+			<p class="project-desc">{{project.description}}</p>
+			<!-- TODO: project categories -->
+			<!-- TODO: skills -->
+			<!-- TODO: media -->
+		</section>
 	</div>
+	{% include footer.html %}
 </body>
+
+</html>
