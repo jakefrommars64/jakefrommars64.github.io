@@ -959,7 +959,7 @@ div.desc {
     }
 
     .responsive {
-        width: 75%;
+        width: 50%;
         margin: 6px 0;
     }
 }
@@ -990,7 +990,7 @@ div.desc {
     }
 
     .responsive {
-        width: 50%;
+        width: 25%;
         margin: 6px 0;
     }
 }
