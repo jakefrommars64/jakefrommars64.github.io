@@ -1,6 +1,22 @@
-<div>
-	<h1>{{page.name}}</h1>
-	<p>{{page.start-date}}</p>
-	<p>{{page.end-date}}</p>
-	<p>{{page.description}}</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ site.title }}</title>
+	<meta name="description" content="{{ site.description }}">
+
+	<link rel="stylesheet" type="" href="{{ 'assets/css/main.css' | prepend: site.baseurl }}">
+</head>
+
+<body>
+	<div>
+		<h1>{{page.name}}</h1>
+		<p>{{page.start-date}}</p>
+		<p>{{page.end-date}}</p>
+		<p>{{page.description}}</p>
+	</div>
+</body>
