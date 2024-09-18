@@ -16,7 +16,7 @@ skills:
 ---
 {{page.skills[0].skill}}
 
-{{site.data.skills[a00]}}
+{{site.data.skills}}
 
 {{page.project-categories}}
 
