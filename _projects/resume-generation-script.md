@@ -10,16 +10,6 @@ project-page: ""
 project-categories:
     - ""
 skills:
-    - skill: Analytical Skills
-    - skill: CSS
-    - skill: Data Analysis
-    - skill: Data Management
-    - skill: Data Manipulation
-    - skill: HTML
-    - skill: Markdown
-    - skill: Problem Solving
-    - skill: Python
-    - skill: Understand & Convey Complex Information
-    - skill: Visual Studio Code (VS Code)
+    - {{site.data.skills.a00}}
 
 ---
