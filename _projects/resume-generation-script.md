@@ -16,15 +16,12 @@ skills:
 ---
 {{page.skills[0].skill}}
 
+skill a00
+
 {{site.data.skills['a00']}}
 
-{{page.project-categories}}
+{%- assign a00 = site.data.skills['a00'] -%}
 
-{{page.project-categories[0].cat}}
+a00 = {{a00}}
 
-{% assign cat = 'cat3' %}
-
-{% assign page.project-categories[2] = cat %}
-
-
-{{page.project-categories}}
+page.a00 = {{page.a00}}
