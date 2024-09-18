@@ -10,9 +10,11 @@ project-page: ""
 project-categories:
     - cat: "cat1"
     - cat: "cat2"
+skills:
+    - skill: a00
 
 ---
-{{site.data.skills.a00}}
+{{site.data.skills[page.skills[1].skill]}}
 
 {{page.project-categories}}
 
@@ -21,5 +23,6 @@ project-categories:
 {% assign cat = cat3 %}
 
 {% assign page.project-categories[2] = cat %}
+
 
 {{page.project-categories}}
