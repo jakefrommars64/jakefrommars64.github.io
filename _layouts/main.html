@@ -38,11 +38,6 @@
 		</div>
 	</div>
 	{% include landing-page.html %}
-	<ul>
-		{% for person in site.data.projects %}
-		<li><a href="{{ person.project-name | datapage_url: 'projects' }}">{{person.project-name}}</a></li>
-		{% endfor %}
-	</ul>
 	<div class="layout">
 		{%if site.show_aboutme_card %}
 		<section class="card neumorphism-card-big">

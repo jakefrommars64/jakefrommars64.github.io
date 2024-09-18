@@ -2,6 +2,12 @@
 {% if site.show_projects %}
 <h1 class="title"><span>{{site.projects_title}}</span></h1>
 <div class="projects-wrapper">
+  <ul>
+    {% for project in site.data.projects %}
+    <li><a href="{{ project.url }}">{{project.name}}</a></li>
+    <p>{{ project.content | markdownify }}</p>
+    {% endfor %}
+  </ul>
   {% for project in site.projects %}
   {% if project.include %}
   <div id="{{project.name}}" class="project neumorphism-card" data-aos="zoom-in-down"
