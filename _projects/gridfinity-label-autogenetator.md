@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project
 name: Gridfinity Label Autogenerator
 include: true
 cms-id: JFM-Proj-006
