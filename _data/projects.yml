@@ -1,4 +1,5 @@
-- project-name: Resume Generation Script
+- name: Resume Generation Script
+  project-name: resume-generation-script
   include: true
   cms-id: ""
   start-date: 29 July 2024
