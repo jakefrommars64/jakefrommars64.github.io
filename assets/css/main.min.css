@@ -927,6 +927,10 @@ div.desc {
         width: 35%;
         margin: 6px 0;
     }
+
+    .github-stats {
+        height: min-content;
+    }
 }
 
 @media only screen and (min-width: 62em) {
