@@ -39,10 +39,10 @@ skills:
     - skill: Visual Studio Code (VS Code)
 media:
     - cover: assets/project-media/gridfinity-label-autogen/cover.png
+images:
     - image: assets/project-media/gridfinity-label-autogen/media-image-01.png
     - image: assets/project-media/gridfinity-label-autogen/media-image-02.png
     - image: assets/project-media/gridfinity-label-autogen/media-image-03.png
     - image: assets/project-media/gridfinity-label-autogen/media-image-04.png
     - image: assets/project-media/gridfinity-label-autogen/media-image-05.png
-    - video: assets/project-media/gridfinity-label-autogen/media-video-01.mp4
 ---
