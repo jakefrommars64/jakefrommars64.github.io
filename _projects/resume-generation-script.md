@@ -11,4 +11,5 @@ project-categories:
     - ""
 
 ---
-{%- assign skills = [site.data.skills.a00] -%}
+hello world!
+{% assign skills = [site.data.skills.a00] %}
