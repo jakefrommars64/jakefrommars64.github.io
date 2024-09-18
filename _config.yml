@@ -42,6 +42,12 @@ show_projects: true
 show_skills_card: false
 show_github_readme: true
 
+defaults:
+  - scope:
+      path: "_projects/"
+    values:
+      layout: project
+
 collections:
   projects:
     output: true
