@@ -45,5 +45,6 @@ images:
     - image: assets/project-media/gridfinity-label-autogen/media-image-03.png
     - image: assets/project-media/gridfinity-label-autogen/media-image-04.png
     - image: assets/project-media/gridfinity-label-autogen/media-image-05.png
+videos:
     - video: assets/project-media/gridfinity-label-autogen/media-video-01.mp4
 ---
