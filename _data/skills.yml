@@ -1,231 +1,231 @@
 # Interpersonal Skills
 
-- a00:
+a00:
   skill: Cross-functional Collaboration
   weight: 0
   type: skills-interpersonal
 
-- a01:
+a01:
   skill: Cross-functional Communication
   weight: 0
   type: skills-interpersonal
 
-- a02:
+a02:
   skill: Cross-functional Coordination
   weight: 0
   type: skills-interpersonal
 
-- a03:
+a03:
   skill: Cross-functional Problem Solving
   weight: 0
   type: skills-interpersonal
 
-- a04:
+a04:
   skill: Cross-functional Team Building
   weight: 0
   type: skills-interpersonal
 
-- a05:
+a05:
   skill: Cross-functional Team Leadership
   weight: 0
   type: skills-interpersonal
 
-- a06:
+a06:
   skill: Interpersonal Communication
   weight: 0
   type: skills-interpersonal
 
-- a07:
+a07:
   skill: Interpersonal Skills
   weight: 0
   type: skills-interpersonal
 
-- a08:
+a08:
   skill: Communication
   weight: 0
   type: skills-interpersonal
 
 # Cognitive skills
 
-- b01:
+b01:
   skill: Analytical Skills
   weight: 0
   type: skills-cognitive
 
-- b02:
+b02:
   skill: Problem Solving
   weight: 0
   type: skills-cognitive
 
-- b03:
+b03:
   skill: Understand & Convey Complex Information
   weight: 0
   type: skills-cognitive
 
 # Leadership Skills
 
-- c01:
+c01:
   skill: Project Management
   weight: 0
   type: skills-leadership
 
-- c02:
+c02:
   skill: Project Planning
   weight: 0
   type: skills-leadership
 
-- c03:
+c03:
   skill: Teamwork
   weight: 0
   type: skills-leadership
 
 # Professional Skills
 
-- d01:
+d01:
   skill: 3D Modeling
   weight: 0
   type: skills-professional
 
-- d02:
+d02:
   skill: 3D Printing
   weight: 0
   type: skills-professional
 
-- d03:
+d03:
   skill: 3D Rendering
   weight: 0
   type: skills-professional
 
-- d04:
+d04:
   skill: CAD Standards
   weight: 0
   type: skills-professional
 
-- d05:
+d05:
   skill: CNC Operation
   weight: 0
   type: skills-professional
 
-- d06:
+d06:
   skill: CNC Programming
   weight: 0
   type: skills-professional
 
-- d07:
+d07:
   skill: Computer-Aided Design (CAD)
   weight: 0
   type: skills-professional
 
-- d08:
+d08:
   skill: Digital Electronics
   weight: 0
   type: skills-professional
 
-- d09:
+d09:
   skill: 2D Drawing + Drafting
   weight: 0
   type: skills-professional
 
-- d10:
+d10:
   skill: 3D Visualization
   weight: 0
   type: skills-professional
 
-- d11:
+d11:
   skill: Data Analysis
   weight: 0
   type: skills-professional
 
-- d12:
+d12:
   skill: Data Management
   weight: 0
   type: skills-professional
 
-- d13:
+d13:
   skill: Data Manipulation
   weight: 0
   type: skills-professional
 
 # Tools
 
-- e01:
+e01:
   skill: Autodesk
   weight: 0
   type: skills-tool
 
-- e02:
+e02:
   skill: Fusion 360
   weight: 0
   type: skills-tool
 
-- e03:
+e03:
   skill: Inventor
   weight: 0
   type: skills-tool
 
-- e04:
+e04:
   skill: Notion
   weight: 0
   type: skills-tool
 
-- e05:
+e05:
   skill: Visual Studio Code (VS Code)
   weight: 0
   type: skills-tool
 
-- e06:
+e06:
   skill: Microsoft Excel
   weight: 0
   type: skills-tool
 
-- e07:
+e07:
   skill: Microsoft PowerPoint
   weight: 0
   type: skills-tool
 
-- e08:
+e08:
   skill: Microsoft Word
   weight: 0
   type: skills-tool
 
-- e09:
+e09:
   skill: Onshape
   weight: 0
   type: skills-tool
 
-- e10:
+e10:
   skill: Microsoft Office
   weight: 0
   type: skills-tool
 
-- e11:
+e11:
   skill: AutoCAD
   weight: 0
   type: skills-tool
 
 # Languages and frameworks
 
-- f01:
+f01:
   skill: C++
   weight: 0
   type: skills-language
 
-- f02:
+f02:
   skill: Python
   weight: 0
   type: skills-language
 
-- f03:
+f03:
   skill: HTML
   weight: 0
   type: skills-language
 
-- f04:
+f04:
   skill: Markdown
   weight: 0
   type: skills-language
 
-- f05:
+f05:
   skill: CSS
   weight: 0
   type: skills-language
