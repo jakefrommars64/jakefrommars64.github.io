@@ -43,7 +43,8 @@ show_skills_card: false
 show_github_readme: true
 
 collections:
-  - projects
+  projects:
+    output: true
 
 # Build settings
 plugins:
