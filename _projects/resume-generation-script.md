@@ -11,5 +11,4 @@ project-categories:
     - ""
 
 ---
-hello world!
-{% assign page.skills = true %}
+{{site.data.skills.a00}}
