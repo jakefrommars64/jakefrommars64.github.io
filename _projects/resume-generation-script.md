@@ -9,7 +9,6 @@ description: Write a script that generates tailored resumes using JSON data and 
 project-page: ""
 project-categories:
     - ""
-skills:
 
 ---
-{%- assign page.skills = [site.data.skills.a00] -%}
+{%- assign skills = [site.data.skills.a00] -%}
