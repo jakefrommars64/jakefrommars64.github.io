@@ -74,6 +74,11 @@
 			</div>
 			{% endfor %} -->
 			<div class="clearfix"></div>
+			{% for sill in page.skills %}
+			<div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in">
+				{{skill.skill}}
+			</div>
+			{% endfor %}
 		</section>
 	</div>
 	{% include footer.html %}
