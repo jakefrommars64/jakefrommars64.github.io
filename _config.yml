@@ -44,10 +44,10 @@ show_github_readme: true
 
 # Datapage generator plugin config
 page_gen:
-  - data: projects
-    template: project-page
-    name: name
-    dir: projects
+  - data: "projects"
+    template: "project-page"
+    name: "project-name"
+    dir: "projects"
 
 # Build settings
 plugins:
