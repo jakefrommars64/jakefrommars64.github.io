@@ -618,25 +618,10 @@ div.desc {
     text-align: center;
 }
 
-.project-page .responsive {
+.responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
-}
-
-
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
 }
 
 .clearfix:after {
@@ -937,6 +922,11 @@ div.desc {
     .contact-icons .social-link .social {
         font-size: 2rem
     }
+
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
 }
 
 @media only screen and (min-width: 62em) {
@@ -967,6 +957,11 @@ div.desc {
     .projects-wrapper>* {
         width: 45%
     }
+
+    .responsive {
+        width: 75%;
+        margin: 6px 0;
+    }
 }
 
 @media only screen and (min-width: 75em) {
@@ -992,6 +987,11 @@ div.desc {
 
     .projects-wrapper>* {
         width: 46%
+    }
+
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
     }
 }
 

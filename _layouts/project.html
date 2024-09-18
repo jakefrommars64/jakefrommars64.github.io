@@ -26,7 +26,7 @@
 <body>
 
 	<video autoplay muted loop class="live-background">
-		<source src="{{ 'assets/videos/background3.mp4' | prepend: site.baseurl }}" type="video/mp4" />
+		<source src="{{ '/assets/videos/background3.mp4' | prepend: site.baseurl }}" type="video/mp4" />
 	</video>
 	<!-- <div id="preloader">
 		<div class="load">
@@ -52,7 +52,7 @@
 			<!-- TODO: skills -->
 			<!-- TODO: media -->
 			{% for image in page.images %}
-			<div class="project-page responsive">
+			<div class="responsive">
 				<div class="gallery">
 					<a target="_blank" href="{{site.baseurl}}/{{image.image}}">
 						<img src="{{site.baseurl}}/{{image.image}}" alt="Cinque Terre">
