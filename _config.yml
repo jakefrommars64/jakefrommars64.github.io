@@ -43,11 +43,12 @@ show_skills_card: false
 show_github_readme: true
 
 # Datapage generator plugin config
+page_gen-dirs: true
 page_gen:
   - data: "projects"
-    template: "project-page.html"
+    template: "project-page"
     name: "project-name"
-    dir: "projects"
+    dir: "project-pages"
 
 # Build settings
 plugins:
