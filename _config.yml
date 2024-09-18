@@ -35,9 +35,6 @@ x_username: jakefrommars64
 about_me_title: A Bit About Me
 about_me_description: Hey there! I'm Jacob Davis, a jack-of-all-trades Freelance Programmer and Engineer, Lab Technician, and all-around maker. I was going to college for Mechanical Engineering at Purdue University however I wasn't learning anything new. My passion lies in solving problems, tinkering on projects, gaming, and constantly learning new things. Whether I'm optimizing production workflows, getting hands-on with making cool stuff, or teaming up with others, I'm always up for a challenge. Let's connect and create something awesome together!
 
-collections:
-- projects
-
 projects_title: Projects
 show_aboutme_card: false
 show_projects_card: true
@@ -45,12 +42,18 @@ show_projects: true
 show_skills_card: false
 show_github_readme: true
 
+# Datapage generator plugin config
+page_gen:
+  - data: projects
+    template: project-page
+    name: name
+    dir: projects
+
 # Build settings
-# theme: minima
 plugins:
-- jekyll-feed
-- jekyll-github-metadata
-- jekyll-datapage-generator
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-datapage-generator
 markdown: kramdown
 
 # Exclude from processing.
@@ -73,4 +76,13 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-exclude: ["development notes.md", "Gemfile", "Gemfile.lock", "gulpfile.js", "node_modules", "package.json", "_posts/"]
+exclude:
+  [
+    "development notes.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+    "_posts/",
+  ]
