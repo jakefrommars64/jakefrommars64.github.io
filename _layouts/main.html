@@ -10,8 +10,10 @@
 	<meta name="description" content="{{ site.description }}" />
 
 	<link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
-	<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
-	<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
+	<link rel="icon" type="image/png" sizes="32x32"
+		href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
+	<link rel="icon" type="image/png" sizes="16x16"
+		href="{{ '/assets/favicon/favicon.ico' | prepend: site.baseurl }}" />
 	<link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | prepend: site.baseurl }}" />
 	<meta name="theme-color" content="#ffffff" />
 
@@ -36,6 +38,11 @@
 		</div>
 	</div>
 	{% include landing-page.html %}
+	<ul>
+		{% for person in site.data.projects %}
+		<li><a href="{{ person.project-name | datapage_url: 'projects' }}">{{person.project-name}}</a></li>
+		{% endfor %}
+	</ul>
 	<div class="layout">
 		{%if site.show_aboutme_card %}
 		<section class="card neumorphism-card-big">

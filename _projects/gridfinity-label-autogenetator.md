@@ -39,3 +39,5 @@ skills:
 media:
 cover: assets/project-media/gridfinity-label-autogen/cover.png
 ---
+
+This is the page for the Gridfinity Label Autogenerator

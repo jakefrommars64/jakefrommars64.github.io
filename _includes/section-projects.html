@@ -2,7 +2,7 @@
 {% if site.show_projects %}
 <h1 class="title"><span>{{site.projects_title}}</span></h1>
 <div class="projects-wrapper">
-  {% for project in site.data.projects %}
+  {% for project in site.projects %}
   {% if project.include %}
   <div id="{{project.name}}" class="project neumorphism-card" data-aos="zoom-in-down"
     style="background-image: linear-gradient(145deg, rgba(66, 66, 66, 0.5) 15%, rgba(66, 66, 66) 80%),url('{{site.baseurl}}/{% if project.media.cover %}{{project.media.cover}}{% else %}assets/images/js-logo.jpg{% endif %}'); background-position-x:center;background-repeat:no-repeat; background-size:contain;">
@@ -12,11 +12,6 @@
       </p>
     </div>
     <p class="project-desc">{{project.description}}</p>
-    <ul>
-      {% for person in site.data.projects %}
-      <li><a href="{{ person.project-name | datapage_url: 'projects' }}">{{person.project-name}}</a></li>
-      {% endfor %}
-    </ul>
     {% if project.project-page %}
     <a class="highlight-link" href="{{project.project-page}}" target="_blank" rel="noreferrer">
       Project Page
