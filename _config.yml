@@ -45,7 +45,6 @@ show_github_readme: true
 collections:
   projects:
     output: true
-    permalink: /:collection/:name/:output_ext
 
 # Build settings
 plugins:
