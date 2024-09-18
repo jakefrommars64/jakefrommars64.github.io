@@ -54,8 +54,6 @@ page_gen:
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-datapage-generator
-markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -65,25 +63,16 @@ markdown: kramdown
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
 exclude:
-  [
-    "development notes.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "gulpfile.js",
-    "node_modules",
-    "package.json",
-    "_posts/",
-  ]
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - development notes.md
+  - _posts/
