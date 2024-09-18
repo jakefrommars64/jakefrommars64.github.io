@@ -1,27 +1,188 @@
-- skill: 2D Drawing + Drafting
-- skill: 3D Modeling
-- skill: 3D Printing
-- skill: 3D Rendering
-- skill: 3D Visualization
-- skill: Analytical Skills
-- skill: AutoCAD
-- skill: Autodesk
-- skill: C++
-- skill: CAD Standards
-- skill: CNC Operation
-- skill: CNC Programming
-- skill: Computer-Aided Design (CAD)
-- skill: Digital Electronics
-- skill: Fusion 360
-- skill: Inventor
-- skill: Microsoft Excel
-- skill: Microsoft Office
-- skill: Microsoft PowerPoint
-- skill: Microsoft Word
-- skill: Notion
-- skill: Onshape
-- skill: Problem Solving
-- skill: Project Management
-- skill: Project Planning
-- skill: Purchase Orders
-- skill: Understand & Convey Complex Information
+skills:
+  # Interpersonal Skills
+
+  - skill: Cross-functional Collaboration
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Cross-functional Communication
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Cross-functional Coordination
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Cross-functional Problem Solving
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Cross-functional Team Building
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Cross-functional Team Leadership
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Interpersonal Communication
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Interpersonal Skills
+    weight: 0
+    type: skills-interpersonal
+
+  - skill: Communication
+    weight: 0
+    type: skills-interpersonal
+
+  # Cognitive skills
+
+  - skill: Analytical Skills
+    weight: 0
+    type: skills-cognitive
+
+  - skill: Problem Solving
+    weight: 0
+    type: skills-cognitive
+
+  - skill: Understand & Convey Complex Information
+    weight: 0
+    type: skills-cognitive
+
+  # Leadership Skills
+
+  - skill: Project Management
+    weight: 0
+    type: skills-leadership
+
+  - skill: Project Planning
+    weight: 0
+    type: skills-leadership
+
+  - skill: Teamwork
+    weight: 0
+    type: skills-leadership
+
+  # Professional Skills
+
+  - skill: 3D Modeling
+    weight: 0
+    type: skills-professional
+
+  - skill: 3D Printing
+    weight: 0
+    type: skills-professional
+
+  - skill: 3D Rendering
+    weight: 0
+    type: skills-professional
+
+  - skill: CAD Standards
+    weight: 0
+    type: skills-professional
+
+  - skill: CNC Operation
+    weight: 0
+    type: skills-professional
+
+  - skill: CNC Programming
+    weight: 0
+    type: skills-professional
+
+  - skill: Computer-Aided Design (CAD)
+    weight: 0
+    type: skills-professional
+
+  - skill: Digital Electronics
+    weight: 0
+    type: skills-professional
+
+  - skill: 2D Drawing + Drafting
+    weight: 0
+    type: skills-professional
+
+  - skill: 3D Visualization
+    weight: 0
+    type: skills-professional
+
+  - skill: Data Analysis
+    weight: 0
+    type: skills-professional
+
+  - skill: Data Management
+    weight: 0
+    type: skills-professional
+
+  - skill: Data Manipulation
+    weight: 0
+    type: skills-professional
+
+  # Tools
+
+  - skill: Autodesk
+    weight: 0
+    type: skills-tool
+
+  - skill: Fusion 360
+    weight: 0
+    type: skills-tool
+
+  - skill: Inventor
+    weight: 0
+    type: skills-tool
+
+  - skill: Notion
+    weight: 0
+    type: skills-tool
+
+  - skill: Visual Studio Code (VS Code)
+    weight: 0
+    type: skills-tool
+
+  - skill: Microsoft Excel
+    weight: 0
+    type: skills-tool
+
+  - skill: Microsoft PowerPoint
+    weight: 0
+    type: skills-tool
+
+  - skill: Microsoft Word
+    weight: 0
+    type: skills-tool
+
+  - skill: Onshape
+    weight: 0
+    type: skills-tool
+
+  - skill: Microsoft Office
+    weight: 0
+    type: skills-tool
+
+  - skill: AutoCAD
+    weight: 0
+    type: skills-tool
+
+  # Languages and frameworks
+
+  - skill: C++
+    weight: 0
+    type: skills-language
+
+  - skill: Python
+    weight: 0
+    type: skills-language
+
+  - skill: HTML
+    weight: 0
+    type: skills-language
+
+  - skill: Markdown
+    weight: 0
+    type: skills-language
+
+  - skill: CSS
+    weight: 0
+    type: skills-language
