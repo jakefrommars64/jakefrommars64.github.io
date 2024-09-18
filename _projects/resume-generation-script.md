@@ -12,4 +12,4 @@ project-categories:
 
 ---
 hello world!
-{% assign skills = [site.data.skills.a00] %}
+{% assign skills = true %}
