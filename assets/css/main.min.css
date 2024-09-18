@@ -51,7 +51,7 @@ html {
     font-size: 1rem;
     font-weight: normal;
     height: 100%;
-    overflow: hidden
+    overflow: auto
 }
 
 body {
