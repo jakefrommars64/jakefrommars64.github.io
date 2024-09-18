@@ -54,9 +54,16 @@
 			{% for image in page.images %}
 			<div class="responsive">
 				<div class="gallery">
+					{%- if image contains '.mp4' -%}
+					<a target="_blank" href="{{site.baseurl}}/{{image.image}}">
+						<video src="{{site.baseurl}}/{{image.image}}" alt="Cinque Terre">
+					</a>
+					{%- else -%}
 					<a target="_blank" href="{{site.baseurl}}/{{image.image}}">
 						<img src="{{site.baseurl}}/{{image.image}}" alt="Cinque Terre">
 					</a>
+					{%- endif -%}
+
 					<div class="desc">Add a description of the image here</div>
 				</div>
 			</div>
