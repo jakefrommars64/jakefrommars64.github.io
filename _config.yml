@@ -50,6 +50,7 @@ show_github_readme: true
 plugins:
 - jekyll-feed
 - jekyll-github-metadata
+- jekyll-datapage-generator
 markdown: kramdown
 
 # Exclude from processing.
