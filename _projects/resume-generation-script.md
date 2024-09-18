@@ -12,4 +12,4 @@ project-categories:
 
 ---
 hello world!
-{% assign skills = true %}
+{% assign page.skills = true %}
