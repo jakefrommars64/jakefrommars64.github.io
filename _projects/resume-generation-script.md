@@ -13,7 +13,13 @@ project-categories:
 
 ---
 {{site.data.skills.a00}}
+
 {{page.project-categories}}
+
 {{page.project-categories[0].cat}}
-{%- assign page.project-categories[2] = {"cat"="cat3"} -%}
+
+{% assign cat = cat3 %}
+
+{% assign page.project-categories[2] = cat %}
+
 {{page.project-categories}}
