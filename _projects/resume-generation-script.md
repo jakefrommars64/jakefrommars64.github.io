@@ -8,36 +8,28 @@ end-date: 6 August 2024
 description: Write a script that generates tailored resumes using JSON data and Markdown to ease the process of creating resume's tailored for each application.
 project-page: ""
 skills:
-    d11:
-        skill: Data Analysis
+    - skill: Data Analysis
         weight: 0
         type: skills-professional
-    d12:
-        skill: Data Management
+    - skill: Data Management
         weight: 0
         type: skills-professional
-    d13:
-        skill: Data Manipulation
+    - skill: Data Manipulation
         weight: 0
         type: skills-professional
-    e05:
-        skill: Visual Studio Code (VS Code)
+    - skill: Visual Studio Code (VS Code)
         weight: 0
         type: skills-tool
-    f02:
-        skill: Python
+    - skill: Python
         weight: 0
         type: skills-language
-    f03:
-        skill: HTML
+    - skill: HTML
         weight: 0
         type: skills-language
-    f04:
-        skill: Markdown
+    - skill: Markdown
         weight: 0
         type: skills-language
-    f05:
-        skill: CSS
+    - skill: CSS
         weight: 0
         type: skills-language
 ---
