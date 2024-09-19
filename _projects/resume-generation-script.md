@@ -13,7 +13,7 @@ project-categories:
 
 ---
 
-{%- assign page.a00 = site.data.skills['a00'] -%}
+{%- assign page['a00'] = site.data.skills['a00'] -%}
 
 just the variable is {{a00.skill}}
 
