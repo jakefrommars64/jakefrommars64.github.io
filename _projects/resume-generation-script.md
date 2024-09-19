@@ -23,6 +23,8 @@ project-categories:
 
 {% assign skillsingle = site.data.skills['a00'] %}
 
+{% assign skillarray2.a = site.data.skills['a00'] %}
+
 
 <p>`page['a00']` is {{page['a00'].skill}}</p>
 
@@ -35,3 +37,5 @@ project-categories:
 <p>`skillarray` is {{skillarray}}</p>
 
 <p>`skillsingle` is {{skillsingle}}</p>
+
+<p>`skillarray2` is {{skillarray2}}</p>
