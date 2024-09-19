@@ -30,4 +30,4 @@ project-categories:
 
 <p>`skills[a01]` is {{skills.a01}}</p>
 
-<p>`skillarray` is {{skill-array}}</p>
+<p>`skillarray` is {{skillarray}}</p>
