@@ -40,7 +40,6 @@
 		<section class="card neumorphism-card-big"
 			style="background-image: linear-gradient(145deg, rgba(66, 66, 66, 0.5) 15%, rgba(66, 66, 66) 80%),url('{{site.baseurl}}/{% if page.media.cover %}{{page.media.cover}}{% else %}assets/images/js-logo.jpg{% endif %}'); background-position-x:center;background-repeat:no-repeat; background-size:contain;">
 			<!-- TODO: name -->
-			<h3>{{page.content}}</h3>
 			<div class="name-link-wrapper">
 				<h3>{{page.name}}</h3>
 				<p class="project-dates">{% if page.start-date %}{{page.start-date}} &rarr;{% endif %}
@@ -63,20 +62,7 @@
 			</div>
 			{% endfor %}
 			<div class="clearfix"></div>
-			<h3>
-				<p>`page['a00']` is {{page['a00'].skill}}</p>
-
-				<p>`page.a00.skill` is {{page.a00.skill}}</p>
-
-				<p>`page.skills['a01']` is {{page.skills.a01}}</p>
-
-				<p>`skills[a01]` is {{skills.a01}}</p>
-
-				<p>`skillarray` is {{skillarray}}</p>
-
-				<p>`skillsingle` is {{page.skillsingle}}</p>
-			</h3>
-			{% for sill in page.skills %}
+			{% for skill in page.skills %}
 			<div>
 				{{skill.skill}}
 			</div>
