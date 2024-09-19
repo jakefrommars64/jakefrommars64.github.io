@@ -13,13 +13,15 @@ project-categories:
 
 ---
 
-{%- assign page['a00'] = site.data.skills['a00'] -%}
+{% assign page['a00'] = site.data.skills['a00'] %}
 
-{%- assign page.skills['a01'] = site.data.skills['a00'] -%}
+{% assign page.skills['a01'] = site.data.skills['a00'] %}
 
-{%- assign skills['a01'] = site.data.skills['a00'] -%}
+{% assign skills['a01'] = site.data.skills['a00'] %}
 
-{%- assign skillarray = [site.data.skills['a00'],site.data.skills['a01']] -%}
+{% assign skillarray = [site.data.skills['a00'],site.data.skills['a01']] %}
+
+{% assign skillsingle = site.data.skills['a00'] %}
 
 
 <p>`page['a00']` is {{page['a00'].skill}}</p>
@@ -31,3 +33,5 @@ project-categories:
 <p>`skills[a01]` is {{skills.a01}}</p>
 
 <p>`skillarray` is {{skillarray}}</p>
+
+<p>`skillsingle` is {{skillsingle}}</p>
