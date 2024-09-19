@@ -15,14 +15,19 @@ project-categories:
 
 {%- assign page['a00'] = site.data.skills['a00'] -%}
 
-just the variable is {{a00.skill}}
-
-as a page variable is {{page.a00.skill}}
-
 {%- assign page.skills['a01'] = site.data.skills['a00'] -%}
-
-as a page variable is {{page.skills.a01}}
 
 {%- assign skills['a01'] = site.data.skills['a00'] -%}
 
-just the variable is {{skills.a01}}
+{%- assign skillarray = [site.data.skills['a00'],site.data.skills['a01']] -%}
+
+
+<p>`page['a00']` is {{page['a00'].skill}}</p>
+
+<p>`page.a00.skill` is {{page.a00.skill}}</p>
+
+<p>`page.skills['a01']` is {{page.skills.a01}}</p>
+
+<p>`skills[a01]` is {{skills.a01}}</p>
+
+<p>`skillarray` is {{skill-array}}</p>
