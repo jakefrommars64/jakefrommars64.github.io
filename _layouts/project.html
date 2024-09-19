@@ -63,9 +63,12 @@
 			</div>
 			{% endfor %}
 			<div class="clearfix"></div>
-			<h1>skills: {{skills}}</h1>
-			<h1>page.skills: {{page.skills}}</h1>
-			<h1>page.a00: {{page.a00}}</h1>
+			<h3>
+				<p>just the variable is {{a00.skill}}</p>
+				<p>as a page variable is {{page.a00.skill}}</p>
+				<p>as a page variable is {{page.skills.a01}}</p>
+				<p>just the variable is {{skills.a01}}</p>
+			</h3>
 			{% for sill in page.skills %}
 			<div>
 				{{skill.skill}}
