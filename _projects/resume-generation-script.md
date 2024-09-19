@@ -15,6 +15,8 @@ project-categories:
 
 {%- assign page['a00'] = site.data.skills['a00'] -%}
 
+page object is {{page}}
+
 just the variable is {{a00.skill}}
 
 as a page variable is {{page.a00.skill}}
