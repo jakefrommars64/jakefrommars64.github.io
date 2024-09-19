@@ -10,18 +10,11 @@ project-page: ""
 project-categories:
     - cat: "cat1"
     - cat: "cat2"
-skills:
-    - skill: 'a00'
 
 ---
-{{page.skills[0].skill}}
 
-skill a00
-
-{{site.data.skills[page.skills[0].skill]}}
-
-{%- assign a00 = site.data.skills['a00'] -%}
+{%- assign page.a00 = site.data.skills['a00'] -%}
 
 just the variable is {{a00.skill}}
 
-as a page variable is {{page.a00}}
+as a page variable is {{page.a00.skill}}
